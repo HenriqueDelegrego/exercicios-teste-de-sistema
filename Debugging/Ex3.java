@@ -1,18 +1,23 @@
 import java.util.Scanner;
 
 /**
- * Considere a matriz do exercício: <br>
+ * Considere a matriz do exercício:
+ * <br>
+ * <br>
  * Você foi atarefado de desenvolver um programa que realiza uma análise de
  * dados em uma array bidimensional que representa a informação da temperatura
  * de uma determinada semana. Cada linha corresponde a um dia da semana e cada
- * coluna corresponde a uma hora do dia. <br>
- * Calcule: <br>
- * A média diária de um dia da semana específico. O usuário entrará com o dia da
- * semana por extenso, por exemplo “domingo”, então você deve pesquisar na linha
- * correspondente. <br>
- * A média da hora de todos os dias da semana. O usuário entrará com a hora, por
- * exemplo 15, então você deve pesquisar na coluna correspondente.
- * 
+ * coluna corresponde a uma hora do dia.
+ * <br>
+ * Calcule:<br>
+ * a) A média diária de um dia da semana específico. O usuário entrará com o dia
+ * da semana por extenso, por exemplo “Domingo”, então você deve pesquisar na
+ * linha correspondente.
+ * <br>
+ * b) A média da hora de todos os dias da semana. O usuário entrará com a hora,
+ * por exemplo 15, então você deve pesquisar na coluna correspondente.
+ * <br>
+ * c) Qual dia da semana teve a maior amplitude térmica.
  */
 public class Ex3 {
 	public static void main(String[] args) {
@@ -32,7 +37,7 @@ public class Ex3 {
 				{ 19.2, 19.5, 19.9, 20.3, 20.7, 21.1, 21.5, 21.9, 22.3, 22.7, 23.1, 23.4, 23.7, 24.0, 24.3, 24.6, 24.9,
 						25.2, 25.5, 25.8, 26.1, 26.3, 26.5, 26.7 } };
 
-		String[] diasSemana = { "domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado" };
+		String[] diasSemana = { "domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sabado" };
 
 		Scanner input = new Scanner(System.in);
 
